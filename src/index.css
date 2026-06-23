@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* Scale everything up by 5-10% (16px * 1.07 ≈ 17.1px) */
+    font-size: 107%;
+  }
+  
+  body {
+    /* Dark theme by default */
+    @apply bg-slate-900 text-slate-200;
+  }
+}
